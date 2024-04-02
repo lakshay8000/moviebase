@@ -1,0 +1,54 @@
+.navbar-wrapper {
+    border-bottom: 1px solid grey;
+    background-color: var(--navbar-background-color);
+    color: var(--text-color);
+    min-width: 100%;
+    min-height: 13vh;
+}
+
+.moviebase-title {
+    text-decoration: none;
+    color: var(--text-color);
+    letter-spacing: 5px;
+    flex-basis: 20%;
+    padding-right: 1rem;
+}
+
+.moviebase-title:hover {
+    cursor: pointer;
+}
+
+.search-bar-wrapper {
+    position: relative;
+    flex-basis: 70%;
+}
+
+.search-results {
+    background-color: white;
+    color: black;
+    position: absolute;
+    width: 100%;
+    border-radius: .375rem;
+    max-height: 228px;
+    overflow-y: scroll;
+}
+
+.search-results div {
+    padding: .4rem .8rem;
+    border-bottom: 1px solid grey;
+}
+
+.search-results div:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.theme-toggle {
+    font-size: x-large;
+    flex-basis: 5%;
+    padding-left: 1rem;
+}
+
+.theme-toggle:hover {
+    cursor: pointer;
+}

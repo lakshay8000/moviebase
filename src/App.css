@@ -1,0 +1,30 @@
+:root {   
+    --app-background-color: black;
+    --movie-card-background-color: black;
+    --movie-card-details-background-color: black;
+    --navbar-background-color: black;
+    --genre-background-color: black;
+    --text-color: white;
+    --inverted-text-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[data-theme = "light"] {
+    --app-background-color: white;
+    --movie-card-background-color: white;
+    --movie-card-details-background-color: grey;
+    --navbar-background-color: white;
+    --genre-background-color: grey;
+    --text-color: black;
+    --inverted-text-color: white;
+}
+
+
+#app-wrapper {
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: var(--app-background-color);
+}

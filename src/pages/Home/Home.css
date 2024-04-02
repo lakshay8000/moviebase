@@ -1,0 +1,5 @@
+.homepage-wrapper {
+    min-width: 100%;
+    min-height: 87vh;
+    background-color: var(--movie-card-background-color);
+}

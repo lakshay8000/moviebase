@@ -1,0 +1,28 @@
+.movie-details-page {
+    min-width: 100%;
+    min-height: 87vh;
+    background-color: var(--app-background-color);
+}
+
+.movie-details-wrapper {
+    background-color: var(--app-background-color); 
+    max-width: 100%;
+}
+
+.movie-card-wrapper {
+    flex-basis: 25%;
+}
+
+.movie-details {
+    color: var(--text-color);
+    flex-basis: 55%;
+}
+
+.genre {
+    border: 1px solid grey;
+    /* margin: 0 .75rem; */
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: var(--genre-background-color);
+    color: white;
+}
