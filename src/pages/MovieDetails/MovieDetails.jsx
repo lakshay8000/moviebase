@@ -34,6 +34,11 @@ function MovieDetails() {
         getMovieDetails();
     }, [urlParams]);
 
+    // also load on page refresh-
+    useEffect(() => {
+        getMovieDetails();
+    }, []);
+
     // console.log(movieInfo);
 
 
