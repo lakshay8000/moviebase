@@ -1,5 +1,5 @@
 import MovieCard from '../../components/MovieCard/MovieCard';
-import "./Home.css";
+import "./home.css";
 import useMovieList from '../../hooks/useMovieList';
 import { useNavigate } from 'react-router-dom';
 

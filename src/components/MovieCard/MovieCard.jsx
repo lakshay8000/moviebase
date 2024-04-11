@@ -1,6 +1,6 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-import "./MovieCard.css";
+import "./movieCard.css";
 import Spinner from '../Spinner/Spinner';
 
 function MovieCard({ poster, title }) {

@@ -1,4 +1,4 @@
-import "./MovieDetails.css";
+import "./movieDetails.css";
 import { useParams } from "react-router-dom";
 import { searchMovieById } from "../../apis/omdb";
 import axios from "axios";
