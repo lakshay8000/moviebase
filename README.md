@@ -37,3 +37,8 @@ To get started with Movie Base, follow these steps:
 This project was created as a personal project for inclusion in my portfolio. Its purpose is to showcase my skills in building React applications and integrating external APIs. If you have any questions or feedback, feel free to reach out.
 
 Happy movie searching! 🎬✨
+
+
+## License:
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
